@@ -1,0 +1,157 @@
+*,html,body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    background:#25346A;
+    color:#eaeaea;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+    gap:10px;
+    z-index: 1;
+    background-size: auto;
+    height: auto;
+    box-shadow: #333746;
+}
+
+.logo {
+    margin-right: auto;
+    display: flex;
+    gap:6px;
+    font-size: 15px;
+    align-items: center;
+
+}
+.img-logo {
+    width: 44px;
+    height:44px;
+    margin-left: 60px;
+    display: flex;
+    position: sticky;
+    position: -webkit-sticky;
+    margin-top: 0px;
+}
+.title-logo{
+    cursor:pointer;
+    transition: all .5s ease 0s;
+    margin-top: 0px;
+}
+
+.logo:hover {
+    color: #bf5a41;
+}
+
+nav {
+    position: sticky;
+    position: -webkit-sticky;
+    display: flex;
+}
+
+nav ul {
+    display:flex;
+    padding:10px;
+    margin-right: 80px;
+    align-items: center;
+    
+}
+li {
+    list-style-type: decimal;
+}
+li {
+    padding:15px;
+    display:flex;
+    margin-top: 0px;
+}
+
+li a {
+    transition: all .5s ease 0s;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+li a:hover {
+    color:bisque;
+}
+
+a {
+    color:#eaeaea;
+    text-decoration:none;
+}
+
+.containerSA {
+    max-width: 1536px;
+    margin-right: 250px;
+    margin-left: 250px;
+    padding: 70px 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: justify;
+}
+
+.SA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    color: #000000;
+    margin-top: -30px;
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #eaeaea;
+    text-shadow: 2px 2px 2px #333746;
+}
+
+.descriptionSA {
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+.itu {
+    width:500px;
+    height: 25%;
+    margin-top: -90px;
+}
+
+@media screen and (max-width:1000px) {
+    .itu {
+        width : 350px;
+        margin-bottom: 20px;
+    }
+    .logo {
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 0px;
+    }
+
+    .img-logo {    
+        margin-top: auto;
+        margin-left: 30px;
+        position: sticky;
+        }
+    .title-logo {
+        margin-top: 0px;
+    }
+    nav ul {
+        margin-right: 10px;
+    }
+    .containerSA {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
